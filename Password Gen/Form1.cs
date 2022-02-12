@@ -10,13 +10,15 @@ namespace Password_Gen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button2.BackColor = Color.Cornsilk;
+            Clipboard.Clear();
             Random rndLC = new Random();
             Random rndUC = new Random();
             Random rndNN = new Random();
             Random rndSP = new Random();
             string pass = "";
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 3; i++)
             {
                 label1.Text = "";
                 char randomChar = (char)rndLC.Next('a', 'z');
@@ -31,5 +33,10 @@ namespace Password_Gen
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(label1.Text);
+            button2.BackColor = Color.CornflowerBlue;
+        }
     }
 }
