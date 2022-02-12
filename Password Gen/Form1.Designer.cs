@@ -1,6 +1,6 @@
 ﻿namespace Password_Gen
 {
-    partial class Form1
+    partial class RndPass
     {
         /// <summary>
         ///  Required designer variable.
@@ -55,7 +55,7 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // RndPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -63,8 +63,8 @@
             this.ClientSize = new System.Drawing.Size(208, 139);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "RndPass";
+            this.Text = "RndPass";
             this.ResumeLayout(false);
 
         }

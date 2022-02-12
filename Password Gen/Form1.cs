@@ -1,9 +1,9 @@
 namespace Password_Gen
 {
-    public partial class Form1 : Form
+    public partial class RndPass : Form
     {
 
-        public Form1()
+        public RndPass()
         {
             InitializeComponent();
         }
